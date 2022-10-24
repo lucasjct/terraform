@@ -1,3 +1,6 @@
+# as variáveis em terrform podem ser boolean, string, number, list e map'
+
+
 variable "aws_region" {
 
   type        = string

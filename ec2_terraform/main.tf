@@ -10,6 +10,8 @@ terraform {
   }
 }
 
+# provider é o bloco que irá nos conectar com a 'aws' ou outro provider
+
 
 provider "aws" {
 
@@ -18,6 +20,8 @@ provider "aws" {
 
 }
 
+# resource é o bloco que informamos o que será criado na aws quando executarmos 'terraform apply'
+# resource possui um type e um name, o name é interno para o terraform não para refletir na cloud
 
 resource "aws_instance" "web" {
   ami           = var.instance_ami
