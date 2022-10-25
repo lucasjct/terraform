@@ -1,5 +1,4 @@
 terraform {
-
   required_version = "v1.3.3"
 
   required_providers {
@@ -11,8 +10,6 @@ terraform {
 }
 
 # provider é o bloco que irá nos conectar com a 'aws' ou outro provider
-
-
 provider "aws" {
 
   region  = var.aws_region
