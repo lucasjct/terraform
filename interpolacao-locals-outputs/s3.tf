@@ -17,6 +17,9 @@ resource "aws_s3_bucket" "this" {
 #  etag = filemd5("pessoa.json") 
 #}
 
+
+
+# Enviar objeto ao bucket
 resource "aws_s3_bucket_object" "this" {
 
   bucket = aws_s3_bucket.this.bucket
