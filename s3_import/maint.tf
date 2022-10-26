@@ -19,12 +19,12 @@ provider "aws" {
 
 resource "aws_s3_bucket" "bucket" {
 
-  bucket = "aws-linux-tips"
+  bucket = "tfstate-712488802180Info"
 
   tags = {
-    UpdatedAt   = "2022-10-22"
+    UpdatedAt = "2022-10-22"
     Managedby = "Terraform"
-    Owner = "Lucas Teixeira"
+    Owner     = "Lucas Teixeira"
   }
 
 }
