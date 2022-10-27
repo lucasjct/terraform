@@ -17,6 +17,6 @@ provider "aws" {
 resource "aws_s3_bucket" "test-bucket-flp" {
   bucket = var.s3_bucket
   acl    = var.acl_s3
-  tags = var.tags_s3
+  tags   = var.tags_s3
 
 }

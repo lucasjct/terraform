@@ -11,18 +11,18 @@ terraform {
   }
 }
 
-# data receberá os dados do repositório
+# data receberá os dados do repositório, semelhante a um pull do respositório
 
 data "aws_caller_identity" "current" {}
 
 
-# cria serviços
+# cria serviços, semelhante a um push
 
 resource "aws_s3_bucket" "remote-state" {
 
-  bucket = "tfstate-${data.aws_caller_identity.current.account_id}"
+  bucket = "tst-tfstate-${data.aws_caller_identity.current.account_id}"
 
-versioning {
+  versioning {
     enabled = true
   }
 
