@@ -14,6 +14,8 @@ data "aws_iam_policy" "adm_role" {
 
 data "aws_region" "current" {}
 
+data "aws_billing_service_account" "main" {}
+
 
 output "policy" {
 
@@ -25,4 +27,10 @@ output "policy" {
 output "region" {
 
   value = data.aws_region.current
+}
+
+output "billing" {
+
+  value = data.aws_billing_service_account.main
+  
 }
