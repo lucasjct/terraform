@@ -6,4 +6,4 @@ Para fazer o versionamento, precisou ser configurado o bloco __backend__, no qua
 
 `terraform init -backend=true -backend-config="backend.hcl`   
 
-Esse comando passa como parâmetro as configurações do backend contidas no arquivo `backend.hcl`  
+Esse comando passa como parâmetro as configurações do backend contidas no arquivo `backend.hcl`.  
