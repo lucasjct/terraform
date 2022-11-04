@@ -6,5 +6,5 @@ resource "local_file" "count" {
 
   filename = "./files/arquivo_${count.index}"
   content  = "esse arquivo é o ${count.index}"
-  
+
 }
