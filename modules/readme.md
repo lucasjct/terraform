@@ -1,6 +1,6 @@
-# Modules  
+# Module block     
 
-Com modules block, podemos utilizar diversos recursos do Terraform, utilizando o module como um container. Nele podemos utilizar diversos resources juntos.    
+Com module blocks, podemos utilizar diversos recursos do Terraform, utilizando o module como um container. Nele podemos utilizar diversos resources juntos.    
 
 [Documentação Module Block](https://developer.hashicorp.com/terraform/language/modules/syntax)   
  
