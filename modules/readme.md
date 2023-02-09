@@ -12,4 +12,4 @@ Tutorial oficial para modules:
 
 Neste exemplo do diretório, foi utilizado module para criar um site estático a partir do storage AWS S3.   
 
-Os modulos nos arquivos `main.tf` evocam os recursos necessário para criar o site estático no S3. 
+Os modulos nos arquivos `main.tf` evocam os recursos necessário para criar o site estático no S3.   
